@@ -1,0 +1,29 @@
+
+**RUN NOSQL_DB first
+**Run NO_SQL_client 
+
+*LIST OF VERBS SUPPORTED
+  1,PUT
+  2,GET
+  3,GETLIST
+  4,DELETE
+
+
+******Using PUT(Format)**
+   **data** One by one
+id=20&name=mpho&surname=makalancheche
+id=10&name=mphozee&surname=makala&age=10
+id=8&name=mphozeee&surname=makalaa&age=11&bad=true
+
+
+***Using GET(Format)**//Only an Id is required, Data is returned as JSON OBJECT
+id=20
+
+
+***Using GETLIST(Format)** //Data is returned as an array of JSON OBJECTs
+//No command required
+
+
+***Using DELETE(Format)**//Only an Id is required
+
+id=20
